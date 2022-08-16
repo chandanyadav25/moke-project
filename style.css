@@ -1,0 +1,311 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+span{
+	color: #042ED9;
+}
+
+header{
+	background: url("Header-bg.png") no-repeat center center / cover ;
+	overflow: hidden;
+}
+ul {
+	list-style: none;
+
+}
+
+.top-header {
+  width: 100%;
+  float: left;
+}
+
+.logo{
+	float: left;
+}
+
+.main-menu{
+	float: right;
+	margin-top: 20px;
+}
+
+.logo img{
+
+	width: 300px;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.main-menu{
+	float: right ltr;
+}
+
+.main-menu i{
+	color: black;
+}
+
+.banner-caption h2{
+	font-size: 60px;
+}
+
+.container .multiple-buttons{
+	overflow: none;
+	margin-bottom: 100px;
+}
+
+.multiple-buttons .btn1{
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0442D9;
+  border: none;
+  border-radius: 20px;
+}
+
+.multiple-buttons .btn2{
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #595959;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.money-back-icon img{
+	width: 80px;
+}
+
+.banner-caption{
+	float: left;
+	margin-top: 100px;
+}
+
+.text{
+	float: left;
+	margin-bottom: 50px;
+}
+
+.text p{
+	font-size: 20px;
+}
+
+.money-back-icon{
+	float: right;
+	margin-top: 80px;
+}
+
+/*sec2 start*/
+
+.sec2 h2{
+	font-size: 35px;
+    font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+
+.sec2 p{
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+
+/*sec3 start*/
+
+.sec3{
+	background-color: #E8EFFF;
+	padding-top: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 80px;
+}
+
+.sec3 h1{
+	font-size: 35px;
+    font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.sec3 h2{
+	font-size: 30px;
+    font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.sec3 p{
+	font-size: 20px;
+}
+
+.btn3{
+	text-align: center;
+}
+
+.sec3 button{
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0442D9;
+  border: none;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+/*sec4 start*/
+.sec4{
+	background-color: #ffffff;
+	padding-top: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 80px;
+}
+
+.sec4 h2{
+	margin-bottom: 20px;
+}
+.sec4 p{
+	font-size: 20px;
+}
+
+.sec4 .multiple-buttons .btn2{
+	border: solid 1px;
+}
+.sec4btn{
+	margin-top: 25px;
+	text-align: center;
+}
+
+.sec5{
+	background-color: #E8EFFF;
+	padding-top: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 80px;
+}
+
+.sec5 p{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.sec5 .multiple-buttons .btn2{
+	border: solid 1px;
+}
+
+/*sec6 start*/
+
+.sec6{
+	background-color: #ffffff;
+	padding-top: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 80px;
+}
+
+.sec6 h1{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.sec6 p{
+	font-size: 20px;
+}
+
+.sec6-text1{
+	margin-bottom: 150px ;
+}
+
+/*sec7 links churaya hua mall*/
+
+.links{
+	background-color: #E8EFFF;
+	padding-top: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 80px;
+	font-size: 12px;
+}
+
+.links-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+/* list item ko colum me dikhane ke liye uper wali 2 line*/
+    grid-gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    }
+
+
+.links li {
+	line-height: 2.8;
+}
+
+.links .links-inner i{
+	margin-left: 10px;
+}
+
+.links .links-inner input{
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+/*footer*/
+
+.footer {
+	background:  #E8EFFF;
+	color: #000000;
+	font-size: 12px;
+	padding: 20px 0;
+	border-top: solid 0.5px;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 20px;
+ }
+
+.footer{
+  width: 100%;
+  float: left;
+}
+
+.f1{
+	float: left;
+}
+
+.f2{
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.f2 b{
+	padding-bottom: 10px;
+}
